@@ -7,11 +7,6 @@ from datetime import datetime
 import imutils
 import shutil
 
-# --------------------------------------------------
-# verify cv2.face subsystem (requires opencv-contrib-python)
-# the AttributeError seen during training indicates the
-# wrong package was installed. Fail fast with guidance.
-# --------------------------------------------------
 if not hasattr(cv2, 'face') or not hasattr(cv2.face, 'LBPHFaceRecognizer_create'):
     raise ImportError(
         "OpenCV installation missing 'cv2.face'.\n"
