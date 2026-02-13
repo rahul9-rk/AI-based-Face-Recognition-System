@@ -60,10 +60,6 @@ pip install -r requirements.txt
 > pip install opencv-contrib-python
 > ```
 
-3. (Optional) Download DNN models for improved face detection:
-   - Place `deploy.prototxt.txt` and `res10_300x300_ssd_iter_140000.caffemodel` in the `models/` folder
-   - Download from: [OpenCV DNN Face Detector](https://github.com/opencv/opencv/tree/master/samples/dnn/face_detector)
-
 ## Usage
 
 ### Option 1: Complete System (Recommended)
@@ -139,8 +135,6 @@ Example: `13_0_2_20260213_230257.jpg`
 - Variation: 2
 - Timestamp: 2026-02-13 23:02:57
 
-## Troubleshooting
-
 ### Camera Not Opening
 - Try changing `cv2.VideoCapture(0)` to `cv2.VideoCapture(1)` or higher
 - Ensure no other application is using the camera
@@ -196,8 +190,6 @@ This project is open source and available under the MIT License.
 - OpenCV community for excellent documentation
 - LBPH algorithm researchers
 - Face detection model contributors
-
-## Contact
 
 For questions or suggestions, please open an issue on GitHub.
 
