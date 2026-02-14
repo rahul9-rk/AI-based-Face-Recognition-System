@@ -15,15 +15,8 @@ A comprehensive face recognition system built with OpenCV and Python, featuring 
 
 ```
 ├── images/                          # Captured face images for training
-├── models/                          # DNN model files (optional)
 ├── opencv-files/                    # Additional cascade files
-├── training-data/                   # Training dataset folders
-├── test-data/                       # Test images
-├── cam.py                           # Basic enrollment & recognition
 ├── FR1.py                           # Advanced system with augmentation
-├── FR11.py                          # Multi-person enrollment
-├── FR2.py                           # Recognition script (threshold: 85)
-├── FR22.py                          # Recognition script (threshold: 50)
 ├── face_recognizer_model.yml        # Trained LBPH model
 ├── label_info.json                  # Person ID to name mapping
 └── requirements.txt                 # Python dependencies
